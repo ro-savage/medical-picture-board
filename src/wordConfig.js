@@ -9,8 +9,8 @@ import questionsImage from './word-images/questions/sayagain.png';
 // greeting Images
 import helloHugImage from './word-images/greeting/hello.png';
 import goodbyeWaveImage from './word-images/greeting/goodbye.png';
-import yesImage from './word-images/greeting/yes.svg';
-import noImage from './word-images/greeting/no.svg';
+import yesImage from './word-images/greeting/yes.png';
+import noImage from './word-images/greeting/no.png';
 import howareyouImage from './word-images/greeting/howareyou.png';
 
 // Feel Images
@@ -21,9 +21,9 @@ import sickFaceImage from './word-images/feel/sick.png';
 
 // Need Images
 import foodImage from './word-images/need/food.png';
-import drinkImage from './word-images/need/drink.svg';
-import medicineImage from './word-images/need/medicine.svg';
-import toiletImage from './word-images/need/toilet.svg';
+import drinkImage from './word-images/need/drink.png';
+import medicineImage from './word-images/need/medicine.png';
+import toiletImage from './word-images/need/toilet.png';
 
 // Pain Images
 import painHeadImage from './word-images/pain/pain-head.png';
@@ -34,8 +34,8 @@ import painChestImage from './word-images/pain/pain-chest.png';
 // Question Images
 import understandImage from './word-images/questions/understand.png';
 import dontknowImage from './word-images/questions/dontknow.png';
-import yesQImage from './word-images/questions/yes.svg';
-import noQImage from './word-images/questions/no.svg';
+import yesQImage from './word-images/questions/yes.png';
+import noQImage from './word-images/questions/no.png';
 import sayAgainImage from './word-images/questions/sayagain.png';
 
 const hello = {
