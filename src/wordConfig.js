@@ -20,7 +20,7 @@ import painFaceImage from './word-images/feel/pain.png';
 import sickFaceImage from './word-images/feel/sick.png';
 
 // Need Images
-import foodImage from './word-images/need/food.svg';
+import foodImage from './word-images/need/food.png';
 import drinkImage from './word-images/need/drink.svg';
 import medicineImage from './word-images/need/medicine.svg';
 import toiletImage from './word-images/need/toilet.svg';

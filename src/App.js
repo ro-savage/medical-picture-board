@@ -30,7 +30,7 @@ class App extends React.Component {
     const words = this.state.selectedWord.words || allWords
     return (
       <div className="App">
-        <div className="App-header">
+        <div className="header-jah17anz4">
           <span className="displayText-jah17anz4">{this.state.text}</span>
         </div>
         <div className="words-jah17anz4">

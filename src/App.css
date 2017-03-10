@@ -2,15 +2,18 @@
   text-align: center;
 }
 
-.App-header {
+.header-jah17anz4 {
   background-color: #222;
-  padding: 20px;
   color: white;
   height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .displayText-jah17anz4 {
-  font-size: 18vmin;
+  font-size: 13vmin;
 }
 
 .words-jah17anz4 {
