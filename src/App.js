@@ -4,7 +4,7 @@ import './App.css'; // unique id jah17anz4
 import WordButton from './components/WordButton/WordButton'
 
 import allWords from './wordConfig'
-// import speak from './speak'
+import speak from './speak'
 
 class App extends React.Component {
   constructor() {
@@ -23,7 +23,7 @@ class App extends React.Component {
       selectedWord: selectedWord,
       text: selectedWord.text
     })
-    // speak(selectedWord.text)
+    speak(selectedWord.text)
   }
   render() {
     const { selectedWord } = this.state
