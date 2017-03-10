@@ -4,7 +4,7 @@ import './App.css'; // unique id jah17anz4
 import WordButton from './components/WordButton/WordButton'
 
 import allWords from './wordConfig'
-import speak from './speak'
+// import speak from './speak'
 
 class App extends React.Component {
   constructor() {
@@ -23,7 +23,7 @@ class App extends React.Component {
       selectedWord: selectedWord,
       text: selectedWord.text
     })
-    speak(selectedWord.text)
+    // speak(selectedWord.text)
   }
   render() {
     const { selectedWord } = this.state
@@ -52,5 +52,19 @@ class App extends React.Component {
     );
   }
 }
+
+// {
+//   Object.keys(words).map( key => {
+//     return <WordButton
+//       key={words[key].id}
+//       id={words[key].id}
+//       wordObject={words[key]}
+//       word={words[key].word}
+//       image={words[key].image}
+//       color={selectedWord.color || words[key].color}
+//       onClick={this.clickWord}
+//     />
+//   })
+// }
 
 export default App;

@@ -40,18 +40,20 @@ const feel = {
   sick: {id: 'sick',  word: 'Sick', text: 'I feel sick', image: sickFaceImage },
 }
 
-const questions = [
-  { word: 'Don\'t understand' },
-  { word: 'I understand' },
-  { word: 'Yes' },
-  { word: 'No' }
-]
+const questions = {
+  nounderstand: { id: 'nounderstand', word: 'Don\'t understand', text: 'I don\'t understand' },
+  understand: { id: 'understand', word: 'I understand', text: 'I understand' },
+  yes: { id: 'yes', word: 'Yes', text: 'Yes'},
+  no: { id: 'no', word: 'No', text:'No' },
+  sayagain: { id: 'sayagain', word: 'Say again', text: 'Please say again' }
+}
 
 const words = {
   hello: { id: 'hello', word: 'Hello', text: 'Greetings',  words: hello, color: 'blue', image: helloImage },
   pain: { id: 'pain', word: 'Pain', text: 'Pain', words: pain, color: 'red', image: painImage },
   need: { id: 'need', word: 'Need', text: 'I need', words: need, color: 'purple', image: needImage },
   feel: { id: 'feel', word: 'Feel', text: 'I feel', words: feel, color: 'green', image: feelImage  },
+  questions: { id: 'questions', word: 'Questions', text: 'Question', words: questions, color: 'orange', image: feelImage  },
 }
 
 export default words
