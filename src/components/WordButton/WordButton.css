@@ -19,9 +19,10 @@
 }
 
 .wordButton-image-a3bs {
-  height: 70%;
+  max-height: 30vh;
+  max-width: 18vw;
 }
 
 .wordButton-text-a3bs {
-  font-size: 8vmin;
+  font-size: 5vmin;
 }
