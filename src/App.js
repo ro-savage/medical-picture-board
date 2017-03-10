@@ -3,7 +3,8 @@ import './App.css'; // unique id jah17anz4
 
 import WordButton from './components/WordButton/WordButton'
 
-import words from './wordConfig'
+import allWords from './wordConfig'
+import speak from './speak'
 
 class App extends React.Component {
   constructor() {
@@ -16,18 +17,21 @@ class App extends React.Component {
   }
 
   clickWord(word) {
-    console.log(word)
+    const words = this.state.selectedWord.words || allWords
     const selectedWord = words[word]
     this.setState({
       selectedWord: selectedWord,
       text: selectedWord.text
     })
+    speak(selectedWord.text)
   }
   render() {
+    const { selectedWord } = this.state
+    const words = this.state.selectedWord.words || allWords
     return (
       <div className="App">
         <div className="App-header">
-          <h2>{this.state.text}</h2>
+          <span className="displayText-jah17anz4">{this.state.text}</span>
         </div>
         <div className="words-jah17anz4">
           {
@@ -38,7 +42,7 @@ class App extends React.Component {
                 wordObject={val}
                 word={val.word}
                 image={val.image}
-                color={val.color}
+                color={selectedWord.color || val.color}
                 onClick={this.clickWord}
               />
             })

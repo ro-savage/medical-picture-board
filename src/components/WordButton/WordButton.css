@@ -8,6 +8,8 @@
   border-radius: 5px;
   flex-direction: column;
   cursor: pointer;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .wordButton-container-a3bs:hover,
