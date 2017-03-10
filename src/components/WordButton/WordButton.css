@@ -1,0 +1,25 @@
+.wordButton-container-a3bs {
+  width: 20vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.wordButton-container-a3bs:hover,
+.wordButton-container-a3bs:focus,
+.wordButton-container-a3bs:active {
+  opacity: 0.75;
+}
+
+.wordButton-image-a3bs {
+  height: 70%;
+}
+
+.wordButton-text-a3bs {
+  font-size: 8vmin;
+}
